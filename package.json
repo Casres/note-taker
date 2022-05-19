@@ -1,0 +1,24 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "note-taker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Casres/note-taker.git"
+  },
+  "keywords": [],
+  "author": "Christian Casillas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Casres/note-taker/issues"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.2",
+    "express": "^4.16.4"
+  },
+  "homepage": "https://github.com/Casres/note-taker#readme"
+}
