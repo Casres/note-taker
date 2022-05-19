@@ -6,7 +6,7 @@ const fs = require('fs');
 // this allows the dev to use file pathways
 const path = require('path');
 // this gets the notes array
-const {notesDB} = require('./miniature-eureka-main/Develop/db/db.json');
+const {notesDB} = require('./DataBase/db.json');
 
 // this starts the server
 const express = require('express');
