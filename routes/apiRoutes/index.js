@@ -7,7 +7,8 @@ const { v4: uuidv4 } = require("uuid");
 
 // this retrieves note DB
 router.get("/notes", (req, res) => {
-  res.sendFile(path.join(__dirname, "../../DataBase/db.json"));
+//   res.fs.readFileSync(path.join(__dirname, "../../DataBase/db.json"));
+  res.json(JSON.parse(fs.readFileSync("DataBase/db.json")));
 });
 
 // creates new note and id
