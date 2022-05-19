@@ -19,7 +19,7 @@ const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
 
 // express middleware 
-app.use(express.static('./'));
+app.use(express.static('public'));
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
